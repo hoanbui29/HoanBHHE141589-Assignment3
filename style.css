@@ -1,0 +1,31 @@
+.keyboard {
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.keyboard__row{
+
+
+}
+
+.keyboard__row > * {
+    position: relative;
+    text-align: center;
+    float: left;
+    border-radius: 0.3em;
+    margin: 0.2em;
+    padding: 0.2em;
+    width: 3.3em;
+    height: 3.3em;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-user-select: none;
+    border: 1px solid #444;
+}
+
+.pressed{
+    border: 1px solid green;
+}
+.released{
+    border: 1px solid orange;
+}
