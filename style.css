@@ -4,14 +4,13 @@
     font-family: sans-serif;
 }
 .keyboard__row{
-display: inline-block;
-
+display: flex;
+    align-items: stretch;
 }
 
 .keyboard__row > * {
-    position: relative;
+    display: inline-block;
     text-align: center;
-    float: left;
     border-radius: 0.3em;
     margin: 0.2em;
     padding: 0.2em;
@@ -20,12 +19,12 @@ display: inline-block;
     box-sizing: border-box;
     cursor: pointer;
     -webkit-user-select: none;
-    border: 1px solid #444;
+    border: 2px solid #444;
 }
 
 .pressed{
-    border: 1px solid green;
+    border: 2px solid orange;
 }
 .released{
-    border: 1px solid orange;
+    border: 2px solid green;
 }

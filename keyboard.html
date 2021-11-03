@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="style.css"/>
     <title>Modal window</title>
 </head>
 <body>
-  <div class="keyboard">
+<div class="keyboard">
     <div class="keyboard__row">
         <div id="Escape">
             <span>ESC</span>
@@ -25,6 +23,7 @@
         <div id="F4">
             <span>F4</span>
         </div>
+        <div style="border: none"></div>
         <div id="F5">
             <span>F5</span>
         </div>
@@ -37,6 +36,7 @@
         <div id="F8">
             <span>F8</span>
         </div>
+        <div style="border: none"></div>
         <div id="F9">
             <span>F9</span>
         </div>
@@ -49,8 +49,19 @@
         <div id="F12">
             <span>F12</span>
         </div>
+        <div style="border: none"></div>
+        <div id="PrintScreen">
+            <span>Prtsc</span>
+        </div>
+        <div id="ScrollLock">
+            <span>Scrlk</span>
+        </div>
+        <div id="Pause">
+            <span>Pause</span>
+        </div>
+
     </div>
-      <div class="keyboard__row">
+    <div class="keyboard__row">
         <div id="Backquote">
             <span>`</span>
         </div>
@@ -90,57 +101,77 @@
         <div id="Equal">
             <span>=</span>
         </div>
-        <div style="width: 6.6em" id="Backspace">
+        <div style="width: 7.0em" id="Backspace">
             <span>Backspace</span>
         </div>
+        <div style="border: none"></div>
+        <div id="Insert">
+            <span>Ins</span>
+        </div>
+        <div id="Home">
+            <span>Home</span>
+        </div>
+        <div id="PageUp">
+            <span>Pg up</span>
+        </div>
     </div>
-      <div class="keyboard__row">
-          <div style="width: 4.4em" id="Tab">
-              <span>Tab</span>
-          </div>
-          <div id="KeyQ">
-              <span>Q</span>
-          </div>
-          <div id="KeyW">
-              <span>W</span>
-          </div>
-          <div id="KeyE">
-              <span>E</span>
-          </div>
-          <div id="KeyR">
-              <span>R</span>
-          </div>
-          <div id="KeyT">
-              <span>T</span>
-          </div>
-          <div id="KeyY">
-              <span>Y</span>
-          </div>
-          <div id="KeyU">
-              <span>U</span>
-          </div>
-          <div id="KeyI">
-              <span>I</span>
-          </div>
-          <div id="KeyO">
-              <span>O</span>
-          </div>
-          <div id="KeyP">
-              <span>P</span>
-          </div>
-          <div id="BracketLeft">
-              <span>[</span>
-          </div>
-          <div id="BracketRight">
-              <span>]</span>
-          </div>
-          <div id="Backslash">
-              <span>\</span>
-          </div>
-      </div>
-      <div class="keyboard__row">
-        <div style="width: 6.6em" id="Capslock">
-            <span>Capslock</span>
+    <div class="keyboard__row">
+        <div style="width: 7.0em" id="Tab">
+            <span>Tab</span>
+        </div>
+        <div id="KeyQ">
+            <span>Q</span>
+        </div>
+        <div id="KeyW">
+            <span>W</span>
+        </div>
+        <div id="KeyE">
+            <span>E</span>
+        </div>
+        <div id="KeyR">
+            <span>R</span>
+        </div>
+        <div id="KeyT">
+            <span>T</span>
+        </div>
+        <div id="KeyY">
+            <span>Y</span>
+        </div>
+        <div id="KeyU">
+            <span>U</span>
+        </div>
+        <div id="KeyI">
+            <span>I</span>
+        </div>
+        <div id="KeyO">
+            <span>O</span>
+        </div>
+        <div id="KeyP">
+            <span>P</span>
+        </div>
+        <div id="BracketLeft">
+            <span>[</span>
+        </div>
+        <div id="BracketRight">
+            <span>]</span>
+        </div>
+        <div id="Backslash">
+            <span>\</span>
+        </div>
+        <div style="border: none"></div>
+        <div id="Delete">
+            <span>Del</span>
+        </div>
+        <div id="End">
+            <span>End</span>
+        </div>
+        <div id="PageDown">
+            <span>Pg dn</span>
+        </div>
+    </div>
+    <div class="keyboard__row">
+        <div style="width: 6.6em" id="CapsLock">
+            <span>CapsLock</span>
         </div>
         <div id="KeyA">
             <span>A</span>
@@ -175,11 +206,11 @@
         <div id="Quote">
             <span>'</span>
         </div>
-        <div style="width: 6.6em" id="Enter">
+        <div style="width: 7.4em" id="Enter">
             <span>Enter</span>
         </div>
     </div>
-      <div class="keyboard__row">
+    <div class="keyboard__row">
         <div style="width: 9.9em" id="ShiftLeft">
             <span>Shift</span>
         </div>
@@ -213,37 +244,50 @@
         <div id="Slash">
             <span>/</span>
         </div>
-        <div style="width: 9.9em" id="ShiftRight">
+        <div style="width: 7.7em" id="ShiftRight">
             <span>Shift</span>
+        </div>
+        <div style="border: none"></div>
+        <div style="border: none"></div>
+        <div id="ArrowUp">
+            <span>↑</span>
         </div>
 
     </div>
-      <div class="keyboard__row">
+    <div class="keyboard__row">
         <div id="ControlLeft">
             <span>Ctrl</span>
         </div>
         <div id="MetaLeft">
             <span>Win</span>
         </div>
-          <div id="AltLeft">
-              <span>Alt</span>
-          </div>
-          <div style="width: 30.30em;" id="Space">
+        <div id="AltLeft">
+            <span>Alt</span>
+        </div>
+        <div style="width: 32.76em;" id="Space">
             <span>Space</span>
         </div>
         <div id="AltRight">
             <span>Alt</span>
         </div>
-        <div id="Digit5">
-            <span>5</span>
+        <div id="ContextMenu">
+            <span>Sel</span>
         </div>
         <div id="ControlRight">
             <span>Ctrl</span>
         </div>
-
+        <div style="border: none"></div>
+        <div id="ArrowLeft">
+            <span>←</span>
+        </div>
+        <div id="ArrowDown">
+            <span>↓</span>
+        </div>
+        <div id="ArrowRight">
+            <span>→</span>
+        </div>
     </div>
-
-  </div>
+</div>
 <script src="index.js"></script>
 </body>
 </html>
