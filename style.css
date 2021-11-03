@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 .keyboard__row{
-
+display: inline-block;
 
 }
 
