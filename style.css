@@ -1,30 +1,57 @@
-.keyboard {
+.container{
+    margin-top: 20rem;
+}
+.column{
+    float: left;
+}
+.table {
     text-align: center;
-    font-size: 14px;
+    font-size: 10px;
     font-family: sans-serif;
 }
-.keyboard__row{
-display: flex;
-    align-items: stretch;
-}
-
-.keyboard__row > * {
-    display: inline-block;
+.table-vertical{
     text-align: center;
-    border-radius: 0.3em;
-    margin: 0.2em;
-    padding: 0.2em;
-    width: 3.3em;
-    height: 3.3em;
-    box-sizing: border-box;
-    cursor: pointer;
-    -webkit-user-select: none;
-    border: 2px solid #444;
+    font-size: 10px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.15rem;
+}
+.row{
+    display: flex;
 }
 
-.pressed{
+.row > * {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: 0.2rem;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+}
+.key-down{
     border: 2px solid orange;
 }
-.released{
+.key-up{
     border: 2px solid green;
+}
+.functionKey{
+    width: 2.497rem;
+}
+.middleKey{
+    width: 3.7rem;
+}
+.largeKey{
+    width: 4.8rem;
+}
+.giantKey{
+    width: 7.4rem;
+}
+.spaceKey{
+    width: 19.9rem;
+}
+.verticalKey{
+    height: 4.8rem;
 }
